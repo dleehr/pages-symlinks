@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to GitHub Pages</h1>
+            <p class="subtitle">Deployed with GitHub Actions</p>
+        </header>
+
+        <main>
+            <section class="info-card">
+                <h2>About This Site</h2>
+                <p>This is an example static website deployed to GitHub Pages using GitHub Actions.</p>
+                <p>The deployment workflow uploads the site as an artifact and then deploys it using the <code>actions/deploy-pages</code> action.</p>
+            </section>
+
+            <section class="info-card">
+                <h2>Features</h2>
+                <ul>
+                    <li>Simple static HTML/CSS/JavaScript</li>
+                    <li>Automated deployment with GitHub Actions</li>
+                    <li>Artifact upload for build artifacts</li>
+                    <li>Modern responsive design</li>
+                </ul>
+            </section>
+
+            <section class="info-card">
+                <h2>Interactive Demo</h2>
+                <p>Click the button below to see JavaScript in action:</p>
+                <button id="demoButton">Click Me!</button>
+                <p id="clickCount" class="click-count"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ for GitHub Pages</p>
+            <p class="timestamp">Page loaded at: <span id="timestamp"></span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
